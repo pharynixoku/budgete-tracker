@@ -1,0 +1,156 @@
+/* =========================
+   GENERAL STYLES
+========================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+#main-heading {
+    font-size: 32px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #ecf0f1;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+}
+
+/* =========================
+   INPUT CONTAINERS
+========================= */
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+/* =========================
+   LABELS
+========================= */
+
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+/* =========================
+   INPUT FIELDS
+========================= */
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+/* =========================
+   EXPENSE LIST
+========================= */
+
+.expense-list {
+    min-height: 150px;
+}
+
+#no-expenses {
+    text-align: center;
+    color: #777;
+    padding: 30px 10px;
+    font-style: italic;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+    #main-heading {
+        font-size: 25px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    main {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
